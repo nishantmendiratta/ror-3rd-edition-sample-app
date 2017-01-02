@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.3'
+gem 'nokogiri', '~> 1.5.9'
+gem 'bootstrap-sass', '2.0.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -35,10 +37,11 @@ group :test do
   gem 'rspec-rails', '2.9.0'
   gem 'capybara', '1.1.2'
   #http://stackoverflow.com/questions/22465503/error-installing-rb-fsevent-0-4-3-1
-  gem 'rb-fsevent', '>= 0.9', :require => false
-  gem 'growl', '1.0.3'
-  gem 'guard-spork', '0.3.2'
-  gem 'spork', '0.9.0'
+  # gem 'rb-fsevent', '0.4.3.1', :require => false
+  # gem 'rb-fsevent', '>= 0.9', :require => false
+  # gem 'growl', '1.0.3'
+  # gem 'guard-spork', '0.3.2'
+  # gem 'spork', '0.9.0'
 end
 
 group :production do
