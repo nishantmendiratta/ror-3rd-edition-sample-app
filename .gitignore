@@ -56,3 +56,11 @@ bower.json
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+#Ignore other unneeded files.
+doc/
+*.swp
+*˜
+.project
+.DS Store
+bundler stubs/
