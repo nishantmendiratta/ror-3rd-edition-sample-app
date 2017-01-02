@@ -181,5 +181,8 @@ DEPENDENCIES
   sqlite3 (= 1.3.5)
   uglifier (= 1.2.3)
 
+RUBY VERSION
+   ruby 1.9.3p551
+
 BUNDLED WITH
    1.13.7
