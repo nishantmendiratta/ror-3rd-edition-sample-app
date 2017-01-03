@@ -3,11 +3,8 @@ SampleAppNew::Application.routes.draw do
   resources :users
 
   resources :sessions, only: [:new, :create, :destroy]
-  # get "users/new"
 
-  # get "static_pages/home"
-
-  # get "static_pages/help"
+  resources :microposts, only: [:create, :destroy]
 
   root to: 'static_pages#home'
 
@@ -22,6 +19,12 @@ SampleAppNew::Application.routes.draw do
   match 'signin', to: 'sessions#new'
 
   match 'signout', to: 'sessions#destroy'
+
+  # get "users/new"
+
+  # get "static_pages/home"
+
+  # get "static_pages/help"
 
   # get "static_pages/about"
 
